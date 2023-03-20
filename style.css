@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: roboto;
+}
+.social {
+    width: 100%;
+    height: 44px;
+    background-color: #6ABF16;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.social p {
+    font-size: 13px;
+    color: #fff;
+    font-family: roboto;
+    font-weight: 400;
+    padding: 13px 30px;
+}
+.banner {
+    width: 100%;
+    height: 646px;
+    background: url(./IMAGES/avada-movers-homeherobackground-final.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.banner menu {
+    width: 100%;
+    height: 105px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.banner menu .logo {
+    width: 185px;
+    height: 67px;
+}
+.banner menu .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner menu nav {
+    width: 72%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.banner menu nav ul {
+    list-style: none;
+}
+.banner menu nav ul li {
+    display: inline-block;
+    color: #111111;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 20px 20px;
+    transition: all linear 500ms;
+}
+.banner menu nav ul li:hover {
+    color: #6ABF16;
+}
+.banner menu nav a button {
+    width: 141px;
+    height: 43px;
+    background: #1675BF;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 43px;
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
+    transition: all linear 500ms;
+}
+.banner menu nav a button:hover {
+    background-color: #3B9DE8;
+}
+.banner .banner-content {
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.banner .banner-content h6 {
+    color: #585858;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+.banner .banner-content p {
+    color: #111111;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-family: roboto;
+    font-weight: 900;
+    line-height: 76.8px;
+    letter-spacing: -1px;
+    margin: 15px 0;
+}
+.banner .banner-footer {
+    width: 100%;
+    height: 141px;
+    background-color: #1675BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+.banner .banner-footer:hover {
+    background-color: #3B9DE8;
+}
+.banner .banner-footer p {
+    color: #fff;
+    font-size: 18px;
+    font-family: roboto;
+    text-transform: uppercase;
+}
+.testimonials {
+    width: 100%;
+    height: 571px;
+    background-color: #f2f5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.testimonials h3 {
+    color: #585858;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 13px;
+}
+.testimonials .header {
+    color: #6ABF16;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: -0.72px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+}
+.testimonials .text-box {
+    width: 753px;
+    margin: 29px 0;
+}
+.testimonials .para {
+    color: #585858;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 30px;
+}
+.testimonials a button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 13px 29px;
+    background: #1675BF;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.testimonials a button:hover {
+    background-color: #3B9DE8;
+}
+.service {
+    width: 100%;
+    height: 1024px;
+    
+}
+.service .header {
+    height: 272px;
+    padding-top: 135px;
+}
+.service .header h3 {
+    font-size: 16px;
+    font-weight: 900;
+    color: #585858;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 25px;
+}
+.service .header p {
+    font-size: 48px;
+    font-weight: 900;
+    color: #6ABF16;
+    text-transform: capitalize;
+    text-align: center;
+}
+.service .box {
+    width: 100%;
+    height: 752px;
+    display: flex;
+    justify-content: center;
+    
+}
+.service .box .img-box {
+    height: 627px;
+    width: 395px;
+    background-color: #f2f5f8;
+    padding: 20px;
+    margin: 0 30px;
+}
+.service .box .img-box .img {
+    width: 100%;
+    height: 227px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.service .box .img-box .img img {
+    width: 100%;
+    object-fit: cover;
+    transition: all linear 0.3s;
+}
+.service .box .img-box .img:hover img {
+    transform: scale(1.1);
+}
+.service .box .txt-box {
+    height: 340px;
+    width: 100%;
+    background-color: #fff;
+    padding: 36px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.service .box .txt-box h4 {
+    color: #1675BF;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+}
+.service .box .txt-box p {
+    color: #585858;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 15px;
+}
+.service .box .txt-box a .btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 13px 29px;
+    margin-top: 20px;
+    background: #1675BF;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.service .box .txt-box a .btn:hover {
+    background: #3B9DE8;
+}
+.banner2 {
+    width: 100%;
+    height: 707px;
+    background: url(./IMAGES/avada-movers-movewithease-background-new.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.banner2 .text-box-out {
+    width: 590px;
+    height: 415px;
+    background-color: #6ABF16;
+    border: 15px solid #579b12;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 45px;
+    margin-right: 30px;
+}
+.banner2 .text-box-out h3 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+.banner2 .text-box-out h4 {
+    color: #fff;
+    font-size: 48px;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: center;
+    margin: 15px 0 20px 0;
+}
+.banner2 .text-box-out p {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 25px 0 30px 0;
+}
+.banner2 .text-box-out a .btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 13px 29px;
+    margin-top: 20px;
+    background: #1675BF;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.banner2 .text-box-out a .btn:hover {
+    background: #3B9DE8;
+}
+.comments {
+    width: 100%;
+    height: 918px;
+    background: url(./IMAGES/avada-movers-testimonial-background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 90px;
+}
+.comments .header {
+    width: 100%;
+    height: 163px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 0;
+}
+.comments .header h3 {
+    color: #585858;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px;
+}
+.comments .header h4 {
+    color: #6ABF16;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+}
+.comments .comment-box {
+    width: 100%;
+    height: 392px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+}
+.comments .comment-box .img-box {
+    height: 392px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.comments .comment-box .img-box .img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.comments .comment-box .img-box .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.comments .comment-box .img-box .quote {
+    width: 100%;
+    height: fit-content;
+
+}
+.comments .comment-box .img-box .quote h5 {
+    color: #1675BF;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 30px 0;
+}
+.comments .comment-box .img-box .quote p {
+    color: #585858;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 32px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.comments .link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 90px 0 110px 0;
+}
+.comments .link a .btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 13px 29px;
+    margin-top: 20px;
+    background: #1675BF;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.comments .link a .btn:hover {
+    background: #3B9DE8;
+}
+.request {
+    width: 100%;
+    height: 445px;
+    background: url(./IMAGES/avada-movers-request-quote-background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.request .text-box {
+    width: 753px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.request .text-box h4 {
+    color: #6ABF16;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 57px;
+}
+.request .text-box p {
+    color: #585858;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 32px;
+    padding: 30px 20px;
+}
+.request .text-box a .btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 13px 29px;
+    margin-top: 20px;
+    background: #1675BF;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.request .text-box a .btn:hover {
+    background: #3B9DE8;
+}
+.footer {
+    width: 100%;
+    height: 607px;
+    background-color: #6ABF16;
+    padding-top: 15px;
+}
+.footer .text-box {
+    width: 100%;
+    height: 455px;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-column-gap: 20px;
+    padding-left: 30px;
+    padding-top: 75px;
+}
+.footer .text-box .common {
+    height: auto;
+}
+.footer .text-box .common h6 {
+    color: #111111;
+    font-size: 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.footer .text-box .common p {
+    color: #585858;
+    font-size: 16px;
+    line-height: 32px;
+    text-transform: capitalize;
+    text-align: left;
+    padding: 27px 0 47px 0;
+}
+.footer .text-box .common .logo {
+    width: 185px;
+    height: 67px;
+}
+.footer .text-box .common .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer .text-box .menu-box nav {
+    margin-top: 40px;
+}
+.footer .text-box .menu-box nav ul a li {
+    list-style: none;
+    color: #212934;
+    font-size: 16px;
+    text-transform: capitalize;
+    display: block;
+    line-height: 32px;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+.footer .text-box .recent-post-box ul {
+    margin-top: 40px;
+}
+.footer .text-box .recent-post-box ul a li {
+    list-style: none;
+    color: #212934;
+    font-size: 16px;
+    text-transform: capitalize;
+    display: block;
+    line-height: 32px;
+    padding: 5px 0;
+    margin: 5px 0;
+}
